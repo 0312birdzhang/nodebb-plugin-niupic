@@ -1,5 +1,6 @@
 //Modified from https://github.com/barisusakli/nodebb-plugin-imgur
-//Also check https://github.com/lzjluzijie/nodebb-plugin-6tu
+//Also check https://github.com/lzjluzijie/nodebb-plugin-6tu 
+//And check https://github.com/lzjluzijie/nodebb-plugin-smms
 
 'use strict';
 
@@ -34,12 +35,12 @@ plugin.upload = function(data, callback) {
 	}
 
 	var options = {
-		url: 'https://sm.ms/api/upload',
+		url: 'https://www.niupic.com/index/upload/process',
 		headers: {
 			'User-Agent': 'request'
 		},
 		formData: {
-			smfile: formDataImage
+			image_field: formDataImage
 		}
 	};
 
@@ -57,7 +58,7 @@ plugin.upload = function(data, callback) {
 		console.log('Upload successful! Server responded with:', body);
 		return callback(null, {
 			name: image.name,
-			url: resp.data.url
+			url: resp.data
 		});
 	});
 

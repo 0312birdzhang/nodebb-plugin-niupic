@@ -1,18 +1,21 @@
 {
-  "name": "nodebb-plugin-smms",
+  "name": "nodebb-plugin-niupic",
   "version": "1.1.0",
-  "description": "A nodebb plugin that upload images to sm.ms",
+  "description": "A nodebb plugin that upload images to www.niupic.com",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lzjluzijie/nodebb-plugin-smms"
+    "url": "https://github.com/0312birdzhang/nodebb-plugin-niupic"
   },
   "keywords": [
     "nodebb",
     "plugin",
-    "sm.ms"
+    "niupic"
   ],
-  "author": "Halulu <lzjluzijie@gmail.com>",
+  "author": "BirdZhang <0312birdzhang@gmail.com>",
+  "contributors": [
+    "Halulu <lzjluzijie@gmail.com>"
+  ],
   "license": "Apache License 2.0",
   "dependencies": {
     "request": "^2.0.0"

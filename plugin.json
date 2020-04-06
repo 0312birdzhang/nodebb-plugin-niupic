@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-plugin-smms",
-    "description": "A nodebb plugin that upload images to sm.ms",
-    "url": "https://github.com/lzjluzijie/nodebb-plugin-smms",
+    "id": "nodebb-plugin-niupic",
+    "description": "A nodebb plugin that upload images to www.niupic.com/",
+    "url": "https://github.com/0312birdzhang/nodebb-plugin-niupic",
     "library": "./index.js",
     "hooks": [
         { "hook": "filter:uploadImage", "method": "upload", "priority": 6 }
