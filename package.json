@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-niupic",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A nodebb plugin that upload images to imgtp.com",
   "main": "index.js",
   "repository": {

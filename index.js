@@ -65,9 +65,10 @@ plugin.upload = function(data, callback) {
 		}
 		
 		console.log('Upload successful! Server responded with:', body);
+		// {"code":200,"msg":"success","data":{"id":"432950","name":"3AgsMpI9jbzCg0FebRj2g3Cs.jpg","url":"https:\/\/img2.imgtp.com\/2024\/05\/21\/MjxkOKVF.jpg","size":35410,"mime":"image\/jpeg","sha1":"e1f08b0f3ae5b90d78c7a9c19f0b49bb79323918","md5":"338689823e7a2e542b4a7c8039379f5f"},"time":1716257304}
 		return callback(null, {
 			name: image.name,
-			url: resp.data
+			url: resp.data.url
 		});
 	});
 
