@@ -1,6 +1,6 @@
 {
     "id": "nodebb-plugin-niupic",
-    "description": "A nodebb plugin that upload images to www.niupic.com/",
+    "description": "A nodebb plugin that upload images to imgtp.com",
     "url": "https://github.com/0312birdzhang/nodebb-plugin-niupic",
     "library": "./index.js",
     "hooks": [

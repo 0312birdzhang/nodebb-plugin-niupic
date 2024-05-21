@@ -34,13 +34,22 @@ plugin.upload = function(data, callback) {
 		return callback(new Error('unknown-type'));
 	}
 
+	// var options = {
+	// 	url: 'https://www.niupic.com/index/upload/process',
+	// 	headers: {
+	// 		'User-Agent': 'request'
+	// 	},
+	// 	formData: {
+	// 		image_field: formDataImage
+	// 	}
+	// };
 	var options = {
-		url: 'https://www.niupic.com/index/upload/process',
+		url: 'https://imgtp.com/api/upload',
 		headers: {
 			'User-Agent': 'request'
 		},
 		formData: {
-			image_field: formDataImage
+			image: formDataImage
 		}
 	};
 
